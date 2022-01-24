@@ -1,0 +1,66 @@
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    margin: 3rem;
+
+    text-align: center;
+    font-size: 3rem;
+}
+
+ul {
+    width: fit-content;
+    margin: auto;
+    padding: 2rem;
+
+    background-color: cornflowerblue;
+    border: 3px solid;
+    border-radius: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+
+input[type="button"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+
+    background-color: red;
+}
+
+input[type="button"]:hover {
+    background-color: darkred;
+    color: white;
+}
+
+#add-item {
+    width: fit-content;
+    height: auto;
+    margin-top: 2rem;
+    padding: 0.5rem;
+
+    font-size: 1rem;
+    background-color: lightgreen;
+}
+
+#add-item:hover {
+    background-color: green;
+    color: white;
+}
+
+.crossed-off {
+    text-decoration: line-through;
+}
