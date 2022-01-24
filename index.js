@@ -1,6 +1,6 @@
 const addItem = document.getElementById('add-item');
 const todoList = document.getElementById('todo-list');
-const itemTemplate = document.getElementById('todo-item').content;
+const itemTemplate = document.getElementById('todo-item').content.firstElementChild;
 
 var todoItems = [];
 
